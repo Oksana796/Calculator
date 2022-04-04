@@ -5,20 +5,20 @@
 }
 body {
   min-height: 100vh;
-  background: #FFE8E8;
+  background: #ffe8e8;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .calculator {
-  flex: 0 0 60%;
+  flex: 0 0 40%;
 }
 .screen {
   width: 100%;
   font-size: 3rem;
   padding: 0.5rem;
   border: 4px solid grey;
-  background: #FF6666;
+  background: #ff6666;
   color: rgb(253, 253, 253);
   cursor: pointer;
   text-align: right;
@@ -30,23 +30,23 @@ body {
 button {
   flex: 0 0 25%;
   font-size: 2rem;
-  padding: 0.30rem;
+  padding: 0.3rem;
   border: 4px solid grey;
 }
 button:hover {
   background: #003399;
 }
 .btn-yellow {
-  background: #FFBF00;
+  background: #ffbf00;
   color: white;
   font-weight: 900;
 }
-.btn-grey{
+.btn-grey {
   background: rgb(224, 224, 224);
 }
-.btn-equal{
-  background: #00794D;
+.btn-equal {
+  background: #00794d;
 }
-.btn-clear{
-  background: #CC3300;
+.btn-clear {
+  background: #cc3300;
 }
